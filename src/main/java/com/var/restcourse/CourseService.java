@@ -12,6 +12,8 @@ import javax.ws.rs.core.Response;
 
 import com.var.restcourse.model.Course;
 
+@Consumes("application/xml,application/json")
+@Produces("application/xml,application/json")
 @Path("/courseservices")
 public interface CourseService {
 	
